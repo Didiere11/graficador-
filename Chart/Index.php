@@ -23,28 +23,63 @@
           <img src="../img/d.jpg">
         <span class="card-title">¿Que desea hacer?</span>
         </div>
-                <div class="card-content">
-                   
-                        <div class="row">
-                            <a href="http://localhost/pruebas/congenero/contgenero.php">
-                                <img src="../img/d.jpg" width="230" height="230"></a>
-    
-                                <a href="http://localhost/pruebas/concanciones/contcanciones.php">
-                                <img src="http://localhost/pruebas/img/canciones.jpg" width="230" height="230"></a>
-                                
-                                <a href="http://localhost/pruebas/conusuarios/contusuario.php">
-                                <img src="http://localhost/pruebas/img/usuarios.jpg" width="230" height="230"></a>
-    
-                                <a href="http://localhost/pruebas/concompositor/contcompos.php">
-                                <img src="http://localhost/pruebas/img/compositores.jpg" width="230" height="230"></a>
-                                    
-                                <a href="http://localhost/pruebas/entradas/contentrada.php">
-                                <img src="http://localhost/pruebas/img/Entrada.jpg" width="230" height="230"></a>
-                        </div>
-                  
-                </div>
-                </div>
-            </div>
+                
+        <div class="row">
+                                <div class="col s6 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                    <img src="../img/ventas.png" width="230" height="150">
+                                    <span class="card-title">Ventas</span>
+                                    </div>
+                                    <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                    <div class="card-action">
+                                    <a href="http://localhost/pruebas/congenero/contgenero.php">Graficacion</a>
+                                    </div>
+                                </div>
+                                </div>
+
+                                <div class="col s6 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                    <img src="../img/cliente.jpg" width="230" height="150">
+                                    <span class="card-title">Clientes</span>
+                                    </div>
+                                    <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                    <div class="card-action">
+                                    <a href="http://localhost/pruebas/concompositor/contcompos.php">Graficacion</a>
+                                    </div>
+                                </div>
+                                </div>
+
+                                <div class="col s6 m4">
+                                <div class="card">
+                                    <div class="card-image" >
+                                    <img src="../img/dinero.jpg" width="230" height="150">
+                                    <span class="card-title">Ganancias</span>
+                                    </div>
+                                    <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                    <div class="card-action">
+                                    <a href="http://localhost/pruebas/concompositor/contcompos.php">Graficacion</a>
+                                    </div>
+                                </div>
+                                </div>
+
+                               </div>
+
+
+
+                        
+                 </div>
+             </div>
         </div>
     </div>
     <!-------------------------------------------------------------------------------- Ventana Modal---------------------------------------------------------------------------->
