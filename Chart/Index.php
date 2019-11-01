@@ -36,7 +36,7 @@
                                     I am convenient because I require little markup to use effectively.</p>
                                     </div>
                                     <div class="card-action">
-                                    <a href="http://localhost/pruebas/congenero/contgenero.php">Graficacion</a>
+                                    <a href="http://localhost/graficador/graficos/ejemplo2.html">Graficar</a>
                                     </div>
                                 </div>
                                 </div>
@@ -52,7 +52,7 @@
                                     I am convenient because I require little markup to use effectively.</p>
                                     </div>
                                     <div class="card-action">
-                                    <a href="http://localhost/pruebas/concompositor/contcompos.php">Graficacion</a>
+                                    <a href="http://localhost/graficador/graficos/ejemplo2.html">Graficar</a>
                                     </div>
                                 </div>
                                 </div>
@@ -68,7 +68,7 @@
                                     I am convenient because I require little markup to use effectively.</p>
                                     </div>
                                     <div class="card-action">
-                                    <a href="http://localhost/pruebas/concompositor/contcompos.php">Graficacion</a>
+                                    <a href="http://localhost/graficador/graficos/ejemplo2.html">Graficar</a>
                                     </div>
                                 </div>
                                 </div>
