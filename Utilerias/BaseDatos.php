@@ -1,6 +1,6 @@
 <?php
 try{
-        $Cn = new PDO('pgsql:host=localhost;port=5432;dbname=estudiantes;user=postgres;password=hola');
+        $Cn = new PDO('pgsql:host=localhost;port=5432;dbname=ventas;user=postgres;password=123456');
         //$Cn = new PDO('mysql:host=localhost; dbname=bdalumnos','root','');
         $Cn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $Cn->exec("SET CLIENT_ENCODING TO 'UTF8';");
@@ -148,7 +148,10 @@ function actualizaCurso($post){
     return Ejecuta($sentencia);
 }
 
-
+function consultaProd(){
+    $query = 'SELECT idproducto,precio FROM "inventarios"."productos"';   
+    return Consulta($query);
+}
 function consultaAlumnos(){
     $query = 'SELECT nocontrol,carrera,nombre,telefono FROM "Escuela"."alumno" ORDER BY nombre';   
     return Consulta($query);
