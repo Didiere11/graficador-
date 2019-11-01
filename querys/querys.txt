@@ -1,0 +1,7 @@
+create table categoria (idcategoria serial PRIMARY KEY,nombrecategoria varchar(50),descripcategoria varchar(50));
+create table clientes (idcliente serial PRIMARY KEY,nombre varchar(50),apellido varchar(50),direccion varchar(120), telefono char(10),email varchar(100));
+create table productos(idproducto serial PRIMARY KEY,nombreprod varchar(50),precio int,stock int,idcategoria int,
+FOREIGN Key (idcategoria) REFERENCES categoria (idcategoria));
+create table detalle(iddetalle serial PRIMARY KEY,idproducto int,idcliente int,cantidad int,precio int,
+FOREIGN Key (idproducto) REFERENCES productos (idproducto),
+FOREIGN Key (idcliente) REFERENCES clientes (idcliente));
